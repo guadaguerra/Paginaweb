@@ -1,0 +1,73 @@
+/**! TIPOGRAFIA */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;1,100&display=swap');
+
+/*! -----RESET-----*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/**!-------HEADER-------*/
+header{
+    background-color: beige; 
+}
+
+header h1{
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin: 15px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/*!--------MAIN--------*/
+
+.delicias{
+    background-image: url(../img/IMG_2344.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed;
+    text-align: center;
+    height: 70vh;
+    color: white;
+}
+
+.delicias h2{
+    font-size: 60px;
+    border: 4px white solid;
+    display: inline-block;
+    padding: 20px;
+}
+
+.delicias p{
+    font-size: 25px;
+}
+
+.delicias a{
+    text-decoration: none;
+}
+
+.bienvenidos img{
+    width: 500px;
+    height: 200px;
+}
+
+
+/*!--------FOOTER-------*/
+
+footer{
+    background-color: beige;
+}
